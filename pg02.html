@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site01.linguagens</title>
+</head>
+<body>
+    <div> 
+        <a href="./index.html">Introdução</a>
+          <br>
+          <a href="./pg01.html">Tinkercad</a>
+          <br>
+          <a href="./pg02.html">C++</a>
+          <br>
+          <a href="./pg03.html">java</a>
+      </div>
+    <h1>LINGUAGEM DE PROGRAMAÇÃO CPP</h1>
+    <br>
+    <h2>O que é?</h2>
+    <br>
+    <p>O C++ é uma linguagem de programação de nível médio, baseada na linguagem C. O desenvolvimento da linguagem começou na década de 80, por Bjarne Stroustrup. O objetivo do desenvolvimento desta linguagem era melhorar uma versão do núcleo Unix. Para desenvolver a linguagem, foram acrecentados elementos de outras linguagens de vários níveis, na tentativa de criar uma linguagem com elementos novos, sem trazer problemas para a programação. No inicio do desenvolvimento, a linguagem usava um pré-processador, mais Stroustrup criou um compilador próprio, com novas caracteristicas.</p>
+    <br>
+    <h2>Quando foi lançado?</h2>
+    <br>
+    <p>A primeira versão oficial do C++ apareceu em 1985, juntamente com o livro “The C++ Programming Language”, que esclareceu vários pontos sobre o C++. Em 1989 foi lançada uma segunda versão da linguagem, com acréscimo das caracteristicas: Herança múltipla, classes abstratas, métodos estáticos, métodos constantes e membros protegidos, incrementando tambem um suporte de orientação a objeto. Um ano depois foi lançado o livro “The Annotated C++ Reference Manual”, que se tornou uma base.</p>
+    <br>
+    <h2>Fatos sobre o cpp</h2>
+    <p>O C++ é uma linguagem criada para ser tão eficiente quanto o C, porém com novas funções.
+        É uma linguagem que suporta múltiplos paradigmas
+        A linguagem da liberdade para o programador escolher as opções, mesmo sendo a opção errada.
+        Muitos códigos podem ser transferidos para C facilmente, pois o C++ foi criado para ter compatibilidade com o C.
+        A linguagem não tem privilégios para alguns grupos de programadores, os comandos são feitos para todas as especialidades de programadores
+        Não é necessário um ambiente de desenvolvimento muito potente para o desenvolvimento de C++.</p>
+        <br>
+<h2>imagem representativa do codigo cpp no programa "ardunoide"</h2>
+<img src="cd arduino ide.jpg" alt="">
+<p>Link do ArduinoIDE:</p>
+</p> SITE DE DOWNLOAD ARDUINOIDE:  <a href="https://www.arduino.cc/en/software">download</a> 
+<h2>Exemplo de codigo cpp</h2>
+<h3>// C++ code
+    <br>
+    //
+    <br>
+    int num = 0;
+    <br>
+    
+    
+    int num2 = 0;
+    <br>
+    
+    void setup()
+     <br>
+    {
+      pinMode(A0, INPUT); <br>
+      Serial.begin(9600); <br>
+      pinMode(12, OUTPUT);<br>
+    
+      num = 0;<br>
+    }
+    
+    void loop() <br>
+    {
+      num = 0; <br>
+      num += analogRead(A0); <br>
+      Serial.println(num); <br>
+      if (num >= 500) { <br>
+        digitalWrite(12, HIGH); <br>
+      } else { <br>
+        digitalWrite(12, LOW); <br>
+      } <br>
+      delay(500); // Wait for 500 millisecond(s) <br>
+    }</h3>
+  
+
+</body>
+</html>
